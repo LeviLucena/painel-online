@@ -1,6 +1,6 @@
 # Painéis Online
 
-Descrição concisa e informativa do seu projeto.
+![captura de tela painel](https://github.com/LeviLucena/painel-online/assets/34045910/799b24a3-e321-401b-b3c9-ad77d425f7e2)
 
 ## Sumário
 

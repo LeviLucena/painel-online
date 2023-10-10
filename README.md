@@ -35,7 +35,7 @@ Exemplo:
 1. Clone este repositório:
 
 ```bash
-git clone https://github.com/seuusuario/seuprojeto.git
+git clone [https://github.com/seuusuario/seuprojeto.git](https://github.com/LeviLucena/painel-online.git)
 
 2. Altere os links de compartilhamento do BI de acordo com os dashboards pretendido.
 

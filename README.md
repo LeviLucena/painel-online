@@ -39,6 +39,7 @@ git clone https://github.com/LeviLucena/painel-online.git
 ```
 
 2. Altere os links de compartilhamento do BI de acordo com os dashboards pretendido.
+3. Personalize as URLs .php de acordo com o seu projeto.
 
 ## Contribuições
 

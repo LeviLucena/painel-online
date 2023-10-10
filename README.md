@@ -9,7 +9,6 @@ Descrição concisa e informativa do seu projeto.
 - [Requisitos](#requisitos)
 - [Instalação](#instalação)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Sobre
 
@@ -41,7 +40,7 @@ git clone https://github.com/LeviLucena/painel-online.git
 2. Altere os links de compartilhamento do BI de acordo com os dashboards pretendido.
 3. Personalize as URLs .php de acordo com o seu projeto.
 
-## Contribuições
+## Contribuição
 
 Contribuições são bem-vindas! Se você tiver ideias de melhorias, correções de bugs ou novas funcionalidades, sinta-se à vontade para abrir uma nova issue ou enviar um pull request.
 Licença

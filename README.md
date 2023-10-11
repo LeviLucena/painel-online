@@ -1,6 +1,6 @@
 # Painéis Online
 
-![captura de tela painel](https://github.com/LeviLucena/painel-online/assets/34045910/8495dedd-9fac-4832-a9ad-5ead83462208)
+![captura de tela painel](https://github.com/LeviLucena/painel-online/assets/34045910/fb94a474-2d18-49d7-a9d8-ffe776f36824)
 
 ## Sumário
 

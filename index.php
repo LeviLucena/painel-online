@@ -129,7 +129,7 @@
             <div class="navbar-header">
                 <a class="#" href="index.php">
                     <div class="logo-container">
-                        <img src="imagens\sua logo.png" alt="Logo">
+                        <img src="imagens\logo-governo-do-estado-sp.png" alt="Logo">
                     </div>
                 </a>
             </div>
@@ -140,24 +140,24 @@
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Grupo<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="gis.php">Grupo de Informática - GI</a>
+                            <li><a href="gis.php">Grupo de Informática em Saúde - GIS</a>
                         </li>
-                            <li><a href="ges.php">Grupo de Equipamentos - GE</a></li>
+                            <li><a href="ges.php">Grupo de Equipamentos em Saúde - GES</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Coordenadoria<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="cgc.php">Coordenadoria de Gestão de Contratos - CGC</a></li>
+                            <li><a href="cgcss.php">Coordenadoria de Gestão de Contratos de Serviços de Saúde - CGCSS</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Centro<span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:void(0)">Centro de Informática - CI</a>
+                            <li><a href="javascript:void(0)">Centro de Informática e Comunicação - CIC</a>
                             <ul class="submenu">
-                                <li><a href="1.php">Indicadores 1</a></li>
-                                <li><a href="2.php">Indicadores 2</a></li>
+                                <li><a href="otrs.php">Indicadores OTRS</a></li>
+                                <li><a href="rdm.php">Indicadores RDM</a></li>
                             </ul>
                         </li>
                         </ul>
@@ -170,37 +170,37 @@
 <!-- Conteúdo da Página -->
 <div class="container">
     <div class="jumbotron">
-        <h1>Painéis Interativos</h1>
-        <p>Explore os painéis interativos: Escolha abaixo o dashboard desejado</p>
+        <h1>Painéis Interativos da SES</h1>
+        <p>Explore os painéis interativos da SES: Escolha abaixo o dashboard desejado</p>
     </div>
 
 <div class="quadro-container">   
     <div class="quadro">
-        <a href="gis.php"><img src="imagens\gi.png" alt="Painel de Indicadores GI"></a>
+        <a href="gis.php"><img src="imagens\gis.png" alt="Painel de Indicadores GIS"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>
 
     <div class="quadro">
-        <a href="ges.php"><img src="imagens\ge.png" alt="Painel de Indicadores GE"></a>
+        <a href="ges.php"><img src="imagens\ges.png" alt="Painel de Indicadores GES"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>
     
     <div class="quadro">
-        <a href="cgcss.php"><img src="imagens\cgc.png" alt="Painel de Indicadores CGC"></a>
+        <a href="cgcss.php"><img src="imagens\cgcss.png" alt="Painel de Indicadores CGSCC"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>
 
     <div class="quadro">
-        <a href="otrs.php"><img src="imagens\1.png" alt="Painel de Indicadores 1"></a>
+        <a href="otrs.php"><img src="imagens\otrs.png" alt="Painel de Indicadores OTRS"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>
 
     <div class="quadro">
-        <a href="rdm.php"><img src="imagens\2.png" alt="Painel de Indicadores 2"></a>
+        <a href="rdm.php"><img src="imagens\rdm.png" alt="Painel de Indicadores RDM"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>

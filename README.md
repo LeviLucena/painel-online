@@ -20,16 +20,10 @@ Navegação pelos menus e cliques nos dashboards para visualizar os indicadores 
 
 ## Requisitos
 
-Liste os requisitos necessários para executar ou utilizar o projeto. Por exemplo:
-
 - PHP 8.2 ou mais recente
 - Servidor web (Apache) para executar o PHP.
 
 ## Instalação
-
-Instruções para instalar ou configurar o projeto. Você pode incluir comandos, etapas ou qualquer informação relevante para facilitar a instalação.
-
-Exemplo:
 
 1. Clone este repositório:
 

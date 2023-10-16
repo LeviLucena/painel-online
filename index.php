@@ -90,7 +90,12 @@
             margin: 10px;
             width: 250px; /* 270 Tamanho dos quadros */
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-            float: left; /* Alinha os quadros horizontalmente */
+            transition: box-shadow 0.3s ease; /* Efeito de transição */
+        }
+
+        /* Efeito de hover nos quadros */
+        .quadro:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.6); /* Aumenta a sombra ao passar o mouse */
         }
 
         /* Estilo para o contêiner dos quadros */

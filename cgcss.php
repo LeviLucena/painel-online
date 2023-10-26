@@ -87,7 +87,7 @@ if (!isset($_SESSION['usuario'])) {
             function redirecionarParaLogin() {
                 setTimeout(function() {
                 alert("Sua sessão expirou. Você será redirecionado para a página de login.");
-                 window.location.href = "https://observatorio.saude.sp.gov.br/login.php"; // Redireciona para a página de login
+                 window.location.href = "SEU DOMINIO AQUI/login.php"; // Redireciona para a página de login
                 }, 1800000); // 1800000 milissegundos = 30 minutos
             }
          </script>

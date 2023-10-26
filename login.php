@@ -10,11 +10,11 @@ if (isset($_POST['submit'])) {
     $password = @$_REQUEST['password'];
 
     /* Declaração das variáveis que possuem os usuários e as senhas criptografadas */
-    $user1 = 'sessp';
-    $hash1 = '$2a$12$/KR4DMFvni1larPZAziwQuWjK0zpEm7yzqidu2akuB1C61Re/ryqu'; // Senha criptografada
+    $user1 = 'CRIE SEU USUARIO';
+    $hash1 = 'CRIE SUA SENHA'; // Senha criptografada
 
-    $user2 = 'visitante';
-    $hash2 = '$2a$12$cD61IVEM9AML1KcNxELwbu5X56V5sYMITg5HfYqsWWmN8SblL9kce'; // Senha criptografada
+    $user2 = 'CRIE SEU USUARIO';
+    $hash2 = 'CRIE SUA SENHA'; // Senha criptografada
 
     /* Testa se o botão submit foi ativado */
     if ($username == $user1 && password_verify($password, $hash1)) {

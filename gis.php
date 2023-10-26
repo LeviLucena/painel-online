@@ -149,8 +149,7 @@ if (!isset($_SESSION['usuario'])) {
     </div> -->
 
     <!-- Coloque o iframe aqui dentro da div.container -->
-    <!-- <iframe title="Painel GIS" width="1140" height="700" src="https://app.powerbi.com/view?r=eyJrIjoiOGI1M2ZhOTktNDM4Ny00ZjYzLTk5YzMtMTQzZWE2MTQ2MWU0IiwidCI6IjNhNzhiMGNkLTdjOGUtNDkyOS04M2Q1LTE5MGE2Y2MwMTM2NSJ9" frameborder="0" allowFullScreen="true"></iframe> -->
-    <iframe title="Power_BI - GIS - Contratos" width="1140" height="700" src="SEU LINK BI AQUI" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe title="Power_BI - GIS - Contratos" width="1140" height="700" src="SEU LINK BI AQUI" frameborder="0" allowFullScreen="true"></iframe>
     </div>
 
 <!-- Inclua o JavaScript do Bootstrap (opcional) -->

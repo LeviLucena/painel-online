@@ -1,9 +1,20 @@
+<?php
+@session_start();
+if (!isset($_SESSION['usuario'])) {
+    header("Location: login.php"); // Redireciona para a página de login
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <!-- Desenvolvido por Levi Lucena - https://www.linkedin.com/in/levilucena/ -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="imagens/bi.ico">
+    
     <title>Painel de Indicadores</title>
 
     <!-- Inclua o JavaScript do jQuery -->
@@ -90,6 +101,7 @@
             margin: 10px;
             width: 250px; /* 270 Tamanho dos quadros */
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            float: left; /* Alinha os quadros horizontalmente */
             transition: box-shadow 0.3s ease; /* Efeito de transição */
         }
 
@@ -123,8 +135,19 @@
             font-size: 1rem;
         }
         </style>
+
+      <script>
+            // Função para redirecionar após um período de tempo
+            function redirecionarParaLogin() {
+                setTimeout(function() {
+                alert("Sua sessão expirou. Você será redirecionado para a página de login.");
+                 window.location.href = "SEU DOMINIO AQUI/login.php"; // Redireciona para a página de login
+                }, 1800000); // 1800000 milissegundos = 30 minutos
+            }
+         </script>
+
 </head>
-    <body>
+    <body onload="redirecionarParaLogin()"> 
             <!-- Cabeçalho com o logo -->
             <div class="container">
                 <header>
@@ -181,7 +204,7 @@
 
 <div class="quadro-container">   
     <div class="quadro">
-        <a href="gis.php"><img src="imagens\gis.png" alt="Painel de Indicadores GIS"></a>
+        <a href="cnes-s4sp.php"><img src="imagens\cnes-s4sp.png" alt="Painel de Indicadores CNES-S4SP"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>
@@ -211,7 +234,7 @@
     </div>
 
     <div class="quadro">
-        <a href="#"><img src="imagens\construcao.png" alt="Painel em Construção"></a>
+        <a href="gis.php"><img src="imagens\gis.png" alt="Painel de Indicadores GIS"></a>
         <!-- <h3>Título do Quadro 2</h3>
         <p>Descrição do Quadro 2.</p> -->
     </div>

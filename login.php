@@ -21,13 +21,13 @@ if (isset($_POST['submit'])) {
         // Usuário e senha corretos, redirecione
         $_SESSION['usuario'] = $username;
         $_SESSION['senha'] = $password;
-        header("Location: https://observatorio.saude.sp.gov.br/index.php");
+        header("Location: SEU DOMINIO AQUI/index.php");
         exit(); // Encerre o script aqui após o redirecionamento
     } elseif ($username == $user2 && password_verify($password, $hash2)) {
         // Usuário e senha corretos, redirecione
         $_SESSION['usuario'] = $username;
         $_SESSION['senha'] = $password;
-        header("Location: https://observatorio.saude.sp.gov.br/index.php");
+        header("Location: SEU DOMINIO AQUI/index.php");
         exit(); // Encerre o script aqui após o redirecionamento
     } else {
         // Nome de usuário ou senha incorretos, marque a variável $erro como verdadeira

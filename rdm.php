@@ -1,10 +1,20 @@
+<?php
+@session_start();
+if (!isset($_SESSION['usuario'])) {
+    header("Location: login.php"); // Redireciona para a página de login
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <!-- Desenvolvido por Levi Lucena - https://www.linkedin.com/in/levilucena/ -->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página PHP</title>
+    <link rel="icon" type="image/x-icon" href="imagens/bi.ico">
+    <title>Painel de Indicadores</title>
 
     <!-- Inclua o JavaScript do jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -78,8 +88,19 @@
             max-width: 100%; /* Largura máxima da imagem (ajuste conforme necessário) */
         }
         </style>
+
+        <script>
+            // Função para redirecionar após um período de tempo
+            function redirecionarParaLogin() {
+                setTimeout(function() {
+                alert("Sua sessão expirou. Você será redirecionado para a página de login.");
+                 window.location.href = "https://observatorio.saude.sp.gov.br/login.php"; // Redireciona para a página de login
+                }, 1800000); // 1800000 milissegundos = 30 minutos
+            }
+        </script>
+
 </head>
-    <body>
+    <body onload="redirecionarParaLogin()">
             <!-- Cabeçalho com o logo -->
             <div class="container">
                 <header>
@@ -137,7 +158,7 @@
 
     <!-- Div para centralizar o iframe horizontalmente -->
     <!-- <div class="mx-auto" style="width: 1200px;"> -->
-        <iframe title="RDM" width="1140" height="1500" src="Insira sua URL BI" frameborder="0" allowFullScreen="true"></iframe>
+        <iframe title="RDM" width="1140" height="1500" src="SEU LINK BI AQUI frameborder="0" allowFullScreen="true"></iframe>
      <!-- </div> -->
     
 </div>

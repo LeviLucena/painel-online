@@ -115,23 +115,23 @@ if (!isset($_SESSION['usuario'])) {
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-users"></i> Grupo <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="gis.php">Grupo de Informática em Saúde - GIS</a></li>
-                            <li><a href="ges.php">Grupo de Equipamentos em Saúde - GES</a></li>
+                            <li><a href=".php">« Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</a></li>
+                            <li><a href=".php">« Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-building"></i> Coordenadoria <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="cgcss.php">Coordenadoria de Gestão de Contratos de Serviços de Saúde - CGCSS</a></li>
+                            <li><a href=".php">« Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</a></li>
                         </ul>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-building"></i> Centro <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="javascript:void(0)">Centro de Informática e Comunicação - CIC</a>
+                            <li><a href="javascript:void(0)">« Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</a>
                                 <ul class="submenu">
-                                    <li><a href="otrs.php"><i class="fas fa-chart-bar"></i> Indicadores OTRS</a></li>
-                                    <li><a href="rdm.php"><i class="fas fa-chart-bar"></i> Indicadores RDM</a></li>
+                                    <li><a href=".php"><i class="fas fa-chart-bar"></i> « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</a></li>
+                                    <li><a href=".php"><i class="fas fa-chart-bar"></i> « Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -145,7 +145,7 @@ if (!isset($_SESSION['usuario'])) {
 <!-- Conteúdo da Página -->
 <div class="container">
     <!-- <div class="jumbotron">
-         <h1>Painel de Indicadores Coordenadoria de Gestão de Contratos de Serviços de Saúde - CGCSS</h1>
+         <h1>« Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua./h1>
         <p>Esta é uma página de exemplo em PHP com um menu dropdown e um logo usando Bootstrap 3.</p> 
     </div> -->
 

@@ -1,10 +1,9 @@
 # Painéis Online
 
+| Imagem 1 | Imagem 2 |
+| ---------| ---------|
 Tela de login
-![image](https://github.com/LeviLucena/painel-online/assets/34045910/70823141-df4b-4a7b-b0a9-f54417731967)
-
-Página Inicial
-![INICIO](https://github.com/LeviLucena/painel-online/assets/34045910/be97bead-8a4b-4bc5-8103-0e51fde6f84f)
+| ![image](https://github.com/LeviLucena/painel-online/assets/34045910/70823141-df4b-4a7b-b0a9-f54417731967) | ![INICIO](https://github.com/LeviLucena/painel-online/assets/34045910/be97bead-8a4b-4bc5-8103-0e51fde6f84f)
 
 
 ## Sumário

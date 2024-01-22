@@ -1,0 +1,184 @@
+.container-fluid {
+    /*background-color: #0c326f; /* Define a cor de fundo */
+    /*color: #ffff; /* Define a cor do texto dentro do contêiner para branco (opcional) */
+}
+
+/* Estilo para o contêiner */
+.jumbotron {
+    background-color: #0c326f;
+    /* Define a cor de fundo */
+    color: #fff;
+    /* Define a cor do texto dentro do contêiner para branco (opcional) */
+    padding: 20px;
+    /* Adiciona um espaçamento interno para melhorar o layout */
+}
+
+/* Estilo para a div do logo com fundo preto */
+.logo-container {
+    background-color: #000;
+    /* Cor de fundo preto */
+    padding: 11px;
+    /* Espaçamento interno para o fundo preto */
+    border-radius: 0 28px 28px 0;
+    /* Cantos arredondados no canto direito */
+    width: 119%;
+    margin-right: 10px;
+    /* Adicione margem à direita para criar espaço entre o logotipo e o menu */
+}
+
+.logo-container img {
+    max-width: 190px;
+    /* Largura máxima aumentada para 200px (ajuste conforme necessário) */
+}
+
+/* Estilo para o submenu */
+.submenu {
+    display: none;
+    /* Oculta o submenu por padrão */
+    position: absolute;
+    background-color: #333;
+    /* Cor de fundo do submenu */
+    width: 200px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilo para os itens do submenu */
+.submenu li {
+    padding: 5px;
+}
+
+/* Estilo para os links do submenu */
+.submenu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+/* Estilo para os links do submenu ao passar o mouse */
+.submenu li a:hover {
+    background-color: #555;
+    /* Cor de fundo ao passar o mouse */
+}
+
+/* Mostra o submenu quando o item pai é hover */
+.nav .nav-item:hover .submenu {
+    display: block;
+}
+
+/* Mostra o submenu quando o item pai é hover */
+.navbar li:hover .submenu {
+    display: block;
+}
+
+/* Estilo para o menu superior */
+.navbar {
+    background-color: #333;
+    /* Cor de fundo do menu */
+    color: #fff;
+    /* Cor do texto no menu */
+    margin-left: 5px;
+    /* Adicione margem à esquerda para criar espaço entre o logotipo e o menu */
+}
+
+.navbar ul.navbar-nav li {
+    padding: 3px 5px;
+    /* Espaçamento ajustado (3px acima e abaixo, 10px à esquerda e à direita) */
+}
+
+.navbar ul.navbar-nav li a {
+    color: #fff;
+    /* Cor do texto no link */
+}
+
+.navbar ul.navbar-nav li a:hover {
+    background-color: #555;
+    /* Cor de fundo do link ao passar o mouse */
+}
+
+.tabela-projetos {
+    max-width: 59.5%;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Estilo para os quadros */
+.quadro {
+    display: inline-block;
+    /* Para que a div se ajuste ao tamanho da imagem */
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    /* 270 Tamanho dos quadros */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    float: left;
+    /* Alinha os quadros horizontalmente */
+    transition: box-shadow 0.3s ease;
+    /* Efeito de transição */
+}
+
+/* Efeito de hover nos quadros */
+.quadro:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Estilo para o contêiner dos quadros */
+.quadro-container {
+    text-align: center;
+    /* Centraliza os quadros horizontalmente */
+    display: flex;
+    /* Usando flexbox para centralizar horizontalmente */
+    justify-content: center;
+    /* Centraliza os quadros horizontalmente */
+    flex-wrap: wrap;
+    /* Permite que os quadros quebrem para a próxima linha */
+}
+
+/* Estilo para as imagens dentro dos quadros */
+.quadro img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Estilo para os títulos dos quadros */
+.quadro h3 {
+    font-size: 1.5rem;
+}
+
+/* Estilo para as descrições dos quadros */
+.quadro p {
+    font-size: 1rem;
+}
+
+footer {
+    max-width: 59.5%;
+    text-align: center;
+    /* Centraliza o conteúdo do rodapé */
+    background-color: #000;
+    margin: 0 auto;
+}
+
+/* Adicione o seguinte código CSS para posicionar o submenu-gis à direita */
+.submenu-gis {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    margin-left: 10px;
+    /* Ajuste conforme necessário */
+    background-color: #ffffff;
+    /* Cor de fundo do submenu-gis */
+    border: 1px solid #dddddd;
+    /* Borda do submenu-gis */
+    padding: 10px;
+}
+
+.gis-submenu:hover .submenu-gis {
+    display: block;
+}

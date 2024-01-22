@@ -10,24 +10,24 @@ if (isset($_POST['submit'])) {
     $password = @$_REQUEST['password'];
 
     /* Declaração das variáveis que possuem os usuários e as senhas criptografadas */
-    $user1 = 'CRIE SEU USUARIO';
-    $hash1 = 'CRIE SUA SENHA'; // Senha criptografada
+    $user1 = 'Fulano';
+    $hash1 = '$2a$12$/KR4DMFvni1larPZAziwQuWjK0zpEm7yzqidu2akuB1C61Re/ryqu'; // Senha criptografada
 
-    $user2 = 'CRIE SEU USUARIO';
-    $hash2 = 'CRIE SUA SENHA'; // Senha criptografada
+    $user2 = 'Visitante';
+    $hash2 = '$2a$12$cD61IVEM9AML1KcNxELwbu5X56V5sYMITg5HfYqsWWmN8SblL9kce'; // Senha criptografada
 
     /* Testa se o botão submit foi ativado */
     if ($username == $user1 && password_verify($password, $hash1)) {
         // Usuário e senha corretos, redirecione
         $_SESSION['usuario'] = $username;
         $_SESSION['senha'] = $password;
-        header("Location: SEU DOMINIO AQUI/index.php");
+        header("Location: SUA URL/index.php");
         exit(); // Encerre o script aqui após o redirecionamento
     } elseif ($username == $user2 && password_verify($password, $hash2)) {
         // Usuário e senha corretos, redirecione
         $_SESSION['usuario'] = $username;
         $_SESSION['senha'] = $password;
-        header("Location: SEU DOMINIO AQUI/index.php");
+        header("Location: SUA URL/index.php");
         exit(); // Encerre o script aqui após o redirecionamento
     } else {
         // Nome de usuário ou senha incorretos, marque a variável $erro como verdadeira

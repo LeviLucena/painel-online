@@ -1,10 +1,8 @@
 # Painéis Online
 
-| Imagem 1 | Imagem 2 |
-| ---------| ---------|
-Tela de login
-| ![image](https://github.com/LeviLucena/painel-online/assets/34045910/70823141-df4b-4a7b-b0a9-f54417731967) | ![INICIO](https://github.com/LeviLucena/painel-online/assets/34045910/be97bead-8a4b-4bc5-8103-0e51fde6f84f)
+O objetivo deste projeto é oferecer uma visualização detalhada de todos os indicadores, reunidos numa página em PHP, incluindo análises geoespaciais, métricas de desempenho e tendências ao longo do tempo. Os dashboards são alimentados por dados em tempo real e podem ser personalizados para atender às necessidades específicas da sua organização.
 
+![image](https://github.com/LeviLucena/painel-online/assets/34045910/70823141-df4b-4a7b-b0a9-f54417731967)
 
 ## Sumário
 
@@ -26,6 +24,11 @@ Navegação pelos menus e cliques nos dashboards para visualizar os indicadores 
 
 - PHP 8.2 ou mais recente
 - Servidor web (Apache) para executar o PHP.
+
+## Screnshots
+| Imagem 1 | Imagem 2 |
+| ---------| ---------|
+| ![image](https://github.com/LeviLucena/painel-online/assets/34045910/70823141-df4b-4a7b-b0a9-f54417731967) | ![INICIO](https://github.com/LeviLucena/painel-online/assets/34045910/be97bead-8a4b-4bc5-8103-0e51fde6f84f)
 
 ## Instalação
 
